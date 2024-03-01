@@ -3,19 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\y\\Desktop\\AfteReset-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|c:\\users\\y\\desktop\\aftereset-main\\pages\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\users.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\y\\Desktop\\AfteReset-main\\pages\\users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\users.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\y\\Desktop\\AfteReset-main\\pages\\messages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\messages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|c:\\users\\y\\desktop\\aftereset-main\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\y\\Desktop\\AfteReset-main\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|c:\\users\\y\\desktop\\aftereset-main\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\y\\Desktop\\AfteReset-main\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|c:\\users\\y\\desktop\\aftereset-main\\pages\\collections.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|C:\\Users\\y\\Desktop\\AfteReset-main\\pages\\collections.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F33269E7-0955-4C6C-B8C3-496AA2F2F8D2}|WPFUIKitProfessional.csproj|solutionrelative:pages\\collections.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -30,11 +38,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Users.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\y\\Desktop\\AfteReset-main\\Pages\\Users.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Users.xaml.cs",
+              "ToolTip": "C:\\Users\\y\\Desktop\\AfteReset-main\\Pages\\Users.xaml.cs",
+              "RelativeToolTip": "Pages\\Users.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwCoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T05:27:49.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Users.xaml",
+              "DocumentMoniker": "C:\\Users\\y\\Desktop\\AfteReset-main\\Pages\\Users.xaml",
+              "RelativeDocumentMoniker": "Pages\\Users.xaml",
+              "ToolTip": "C:\\Users\\y\\Desktop\\AfteReset-main\\Pages\\Users.xaml",
+              "RelativeToolTip": "Pages\\Users.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-01T05:27:46.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\y\\Desktop\\AfteReset-main\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -47,51 +79,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\y\\Desktop\\AfteReset-main\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\y\\Desktop\\AfteReset-main\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-01T05:05:48.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T05:05:48.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Messages.xaml",
               "DocumentMoniker": "C:\\Users\\y\\Desktop\\AfteReset-main\\Pages\\Messages.xaml",
               "RelativeDocumentMoniker": "Pages\\Messages.xaml",
               "ToolTip": "C:\\Users\\y\\Desktop\\AfteReset-main\\Pages\\Messages.xaml",
               "RelativeToolTip": "Pages\\Messages.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-01T04:55:46.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T04:55:46.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Collections.xaml",
               "DocumentMoniker": "C:\\Users\\y\\Desktop\\AfteReset-main\\Pages\\Collections.xaml",
               "RelativeDocumentMoniker": "Pages\\Collections.xaml",
               "ToolTip": "C:\\Users\\y\\Desktop\\AfteReset-main\\Pages\\Collections.xaml",
               "RelativeToolTip": "Pages\\Collections.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-01T04:55:28.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T04:55:28.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Analytics.xaml",
               "DocumentMoniker": "C:\\Users\\y\\Desktop\\AfteReset-main\\Pages\\Analytics.xaml",
               "RelativeDocumentMoniker": "Pages\\Analytics.xaml",
               "ToolTip": "C:\\Users\\y\\Desktop\\AfteReset-main\\Pages\\Analytics.xaml",
               "RelativeToolTip": "Pages\\Analytics.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-01T04:55:17.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T04:55:17.66Z"
             }
           ]
         }

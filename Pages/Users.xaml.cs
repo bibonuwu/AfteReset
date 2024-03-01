@@ -47,6 +47,8 @@ namespace WPFUIKitProfessional.Pages
                 string output = await process.StandardOutput.ReadToEndAsync();
                 string error = await process.StandardError.ReadToEndAsync();
 
+                process.WaitForExit(); // Дождитесь завершения процесса
+
                 if (!string.IsNullOrEmpty(error))
                 {
                     MessageBox.Show($"Ошибка PowerShell: {error}");
@@ -59,16 +61,29 @@ namespace WPFUIKitProfessional.Pages
                     return;
                 }
 
-                // Десериализуем как один объект WifiProfile, а не как список
-                var wifiProfile = JsonConvert.DeserializeObject<WifiProfile>(output);
-                if (wifiProfile == null)
+                List<WifiProfile> wifiProfiles = null;
+                try
                 {
-                    MessageBox.Show("Нет доступных Wi-Fi профилей.");
+                    // Попытка десериализовать JSON как список профилей
+                    wifiProfiles = JsonConvert.DeserializeObject<List<WifiProfile>>(output);
+                }
+                catch (JsonSerializationException)
+                {
+                    // Попытка десериализовать JSON как одиночный профиль, если он не является списком
+                    var singleWifiProfile = JsonConvert.DeserializeObject<WifiProfile>(output);
+                    if (singleWifiProfile != null)
+                    {
+                        wifiProfiles = new List<WifiProfile> { singleWifiProfile };
+                    }
+                }
+
+                if (wifiProfiles == null || wifiProfiles.Count == 0)
+                {
+                    MessageBox.Show("Не удалось получить данные профилей Wi-Fi.");
                 }
                 else
                 {
-                    // Если нам нужно отобразить один профиль, мы можем обернуть его в список
-                    wifiDataGrid.ItemsSource = new List<WifiProfile> { wifiProfile };
+                    wifiDataGrid.ItemsSource = wifiProfiles;
                 }
             }
             catch (Exception ex)
@@ -77,10 +92,8 @@ namespace WPFUIKitProfessional.Pages
             }
         }
 
-
         public class WifiProfile
         {
-            // Убедитесь, что названия свойств совпадают с ключами в вашем JSON
             public string ProfileName { get; set; }
             public string Password { get; set; }
         }

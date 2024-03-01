@@ -1,0 +1,224 @@
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\bin\Debug\WPFUIKitProfessional.exe.config
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\bin\Debug\WPFUIKitProfessional.exe
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\bin\Debug\WPFUIKitProfessional.pdb
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\WPFUIKitProfessional.csproj.AssemblyReference.cache
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\WPFUIKitProfessional.csproj.SuggestedBindingRedirects.cache
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Themes\DarkTheme.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Themes\LightTheme.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\MainWindow.g.cs
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\App.g.cs
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\WPFUIKitProfessional_MarkupCompile.cache
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\WPFUIKitProfessional_MarkupCompile.lref
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\App.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\MainWindow.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\WPFUIKitProfessional.g.resources
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\WPFUIKitProfessional.Properties.Resources.resources
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\WPFUIKitProfessional.csproj.GenerateResource.cache
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\WPFUIKitProfessional.csproj.CoreCompileInputs.cache
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\WPFUIKitProfessional.exe
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\WPFUIKitProfessional.pdb
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Styles\RadioButtonStyle.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Styles\ButtonStyle.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Home.g.cs
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Home.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Analytics.g.cs
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Collections.g.cs
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Messages.g.cs
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Users.g.cs
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Analytics.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Collections.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Messages.baml
+C:\Users\JEYDERHT\Desktop\WPF UI Design\WPFUIKitProfessional\obj\Debug\Pages\Users.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.exe.config
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.exe.manifest
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.application
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.exe
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.pdb
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.AssemblyReference.cache
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Styles\ButtonStyle.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Styles\RadioButtonStyle.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Themes\DarkTheme.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Themes\LightTheme.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\MainWindow.g.cs
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Analytics.g.cs
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Collections.g.cs
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Home.g.cs
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Messages.g.cs
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Users.g.cs
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\App.g.cs
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional_MarkupCompile.cache
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional_MarkupCompile.lref
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\App.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\MainWindow.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Analytics.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Collections.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Home.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Messages.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Users.baml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.g.resources
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.Properties.Resources.resources
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.GenerateResource.cache
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.CoreCompileInputs.cache
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.exe.manifest
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.application
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.exe
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.pdb
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional_Content.g.cs
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\Newtonsoft.Json.dll
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\bin\Debug\Newtonsoft.Json.xml
+C:\Users\x\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKit.A27DEA20.Up2Date
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.exe.config
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.exe.manifest
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.application
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.exe
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\WPFUIKitProfessional.pdb
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Core.dll
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\Newtonsoft.Json.dll
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Core.xml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\bin\Debug\Newtonsoft.Json.xml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.AssemblyReference.cache
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Assets\Icons\Icons.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Styles\ButtonStyle.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Styles\RadioButtonStyle.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Themes\DarkTheme.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Themes\LightTheme.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\MainWindow.g.cs
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Pages\Analytics.g.cs
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Pages\Collections.g.cs
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Pages\Home.g.cs
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Pages\Messages.g.cs
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Pages\Users.g.cs
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\App.g.cs
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional_Content.g.cs
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional_MarkupCompile.cache
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional_MarkupCompile.lref
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\App.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\MainWindow.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Pages\Analytics.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Pages\Collections.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Pages\Home.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Pages\Messages.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\Pages\Users.baml
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.g.resources
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.Properties.Resources.resources
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.GenerateResource.cache
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.CoreCompileInputs.cache
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.exe.manifest
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.application
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKit.A27DEA20.Up2Date
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.exe
+D:\System\Программа на WIn свой\AfteReset\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.pdb
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.AssemblyReference.cache
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Styles\ButtonStyle.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Styles\RadioButtonStyle.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Themes\DarkTheme.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Themes\LightTheme.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\MainWindow.g.cs
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Analytics.g.cs
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Collections.g.cs
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Home.g.cs
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Users.g.cs
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\App.g.cs
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\Newtonsoft.Json.dll
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\Newtonsoft.Json.xml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Messages.g.cs
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\App.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\MainWindow.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Analytics.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Collections.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Home.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Messages.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\Pages\Users.baml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.GenerateResource.cache
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKitProfessional.csproj.CoreCompileInputs.cache
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\WPFUIKit.A27DEA20.Up2Date
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\AfteReset.exe.config
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\AfteReset.exe
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\AfteReset.pdb
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\AfteReset_Content.g.cs
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\AfteReset_MarkupCompile.cache
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\AfteReset_MarkupCompile.lref
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\AfteReset.g.resources
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\AfteReset.Properties.Resources.resources
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\AfteReset.exe
+C:\Users\y\Desktop\WPFUIKitProfessional-main\obj\Debug\AfteReset.pdb
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\Firebase.dll
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\LiteDB.dll
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\System.Reactive.dll
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\Firebase.xml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\LiteDB.xml
+C:\Users\y\Desktop\WPFUIKitProfessional-main\bin\Debug\System.Reactive.xml
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\AfteReset.exe.config
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\AfteReset.exe
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\AfteReset.pdb
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\Firebase.dll
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\LiteDB.dll
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\Newtonsoft.Json.dll
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\System.Reactive.dll
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\Firebase.xml
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\LiteDB.xml
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\Newtonsoft.Json.xml
+C:\Users\y\Desktop\AfteReset-main\bin\Debug\System.Reactive.xml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\WPFUIKitProfessional.csproj.AssemblyReference.cache
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Assets\Icons\Icons.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Styles\ButtonStyle.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Styles\RadioButtonStyle.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Themes\DarkTheme.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Themes\LightTheme.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\MainWindow.g.cs
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Pages\Analytics.g.cs
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Pages\Collections.g.cs
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Pages\Home.g.cs
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Pages\Messages.g.cs
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Pages\Users.g.cs
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\App.g.cs
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\AfteReset_Content.g.cs
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\AfteReset_MarkupCompile.cache
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\AfteReset_MarkupCompile.lref
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\App.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\MainWindow.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Pages\Analytics.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Pages\Collections.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Pages\Home.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Pages\Messages.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\Pages\Users.baml
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\AfteReset.g.resources
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\AfteReset.Properties.Resources.resources
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\WPFUIKitProfessional.csproj.GenerateResource.cache
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\WPFUIKitProfessional.csproj.CoreCompileInputs.cache
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\WPFUIKit.A27DEA20.Up2Date
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\AfteReset.exe
+C:\Users\y\Desktop\AfteReset-main\obj\Debug\AfteReset.pdb

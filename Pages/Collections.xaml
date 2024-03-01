@@ -1,0 +1,695 @@
+﻿<Page x:Class="WPFUIKitProfessional.Pages.Collections"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPFUIKitProfessional.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Collections" FontFamily="Poppins">
+
+    <Page.Resources>
+        <Style x:Key="AnimatedButtonStyle" TargetType="Button">
+
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="TextElement.Foreground" Value="Black"/>
+            <Setter Property="BorderBrush" Value="#00000000"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="0,0,0,8"/>
+            <Setter Property="Background" Value="#FF042FFF"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="20" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect BlurRadius="50" Color="#5B8DEF" Opacity="0.5" ShadowDepth="5"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+
+            </Style.Triggers>
+
+        </Style>
+    </Page.Resources>
+
+
+    <Border CornerRadius="8" Background="{DynamicResource SecundaryBackgroundColor}" Margin="0,0,0,-190">
+
+        <Grid>
+
+
+
+
+
+            <StackPanel Margin="10,10,550,10">
+                <Label Content="Панель задач" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Padding="10" Foreground="{DynamicResource PrimaryTextColor}" />
+
+
+                <Button
+                Content="Explorer 'This PC'"
+                x:Name="DeleteFolderButton28"
+                Click="Button_Click_28"
+                    Style="{StaticResource AnimatedButtonStyle}"
+                 Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+
+
+                <Button
+                Content="Viewing tasks"
+                x:Name="DeleteFolderButton29"
+                Click="Button_Click_29"
+                    
+                     Style="{StaticResource AnimatedButtonStyle}"
+Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+
+                </Button>
+
+
+                <Button
+    Content="News and interests" 
+    x:Name="DeleteFolderButton1"
+ Style="{StaticResource AnimatedButtonStyle}" 
+    Click="Button_Click_1"
+ Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+
+                </Button>
+
+
+                <Button
+     Content="Search" 
+     x:Name="DeleteFolderButton2"
+     Click="Button_Click_2"
+       Style="{StaticResource AnimatedButtonStyle}"  VerticalAlignment="Top" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+
+
+                <Button
+     Content="Group buttons" 
+     x:Name="DeleteFolderButton3"
+     Click="Button_Click_3"
+     Style="{StaticResource AnimatedButtonStyle}"  VerticalAlignment="Top" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+    Content="Viewing tasks" 
+    x:Name="DeleteFolderButton5"
+    Click="Button_Click_5"
+    Style="{StaticResource AnimatedButtonStyle}"
+    VerticalAlignment="Top" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+
+
+
+
+
+
+
+                <Button
+Content="Spotify" 
+x:Name="DeleteFolderButton30"
+Click="Button_Click_30"
+Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+
+                <Button
+Content="Explorer FastPass" 
+x:Name="DeleteFolderButton31"
+Click="Button_Click_31"
+Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+
+                <Button
+Content="Data diagnostics" 
+x:Name="DeleteFolderButton33"
+Click="Button_Click_33"
+Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+
+
+                <Button
+Content="Explorer Network" 
+x:Name="DeleteFolderButton34"
+Click="Button_Click_34"
+Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+
+                <Label Content="Recommend" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Padding="10" Margin="0,5,0,8" Foreground="{DynamicResource PrimaryTextColor}" />
+
+
+                <Button
+Content="All turn off" 
+x:Name="DeleteFolderButton32"
+Click="Button_Click_32"
+Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+
+
+
+
+
+
+
+            </StackPanel>
+
+            <StackPanel Margin="255,10,255,10">
+
+                <Label Content="Настройка" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Padding="10" Foreground="{DynamicResource PrimaryTextColor}" />
+
+
+                <Button
+                Content="High performance" 
+                x:Name="DeleteFolderButton26"
+                Click="Button_Click_26"
+              Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="General confidentiality" 
+                x:Name="DeleteFolderButton25"
+                Click="Button_Click_25"
+            Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Background applications" 
+                x:Name="DeleteFolderButton24"
+                Click="Button_Click_24"
+               Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Tracking from Microsoft" 
+                x:Name="DeleteFolderButton23"
+                Click="Button_Click_23"
+             Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Diagnostics" 
+                x:Name="DeleteFolderButton22"
+                Click="Button_Click_22"
+               Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Notification" 
+                x:Name="DeleteFolderButton7"
+                Click="Button_Click_7"
+                
+              Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Lock Screen" 
+                x:Name="DeleteFolderButton10"
+                Click="Button_Click_10"
+              Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Color elements" 
+                x:Name="DeleteFolderButton9"
+                Click="Button_Click_9"
+              Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Dark Theame" 
+                x:Name="DeleteFolderButton6"
+                Click="Button_Click_6"
+             Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Clipboard" 
+                x:Name="DeleteFolderButton8"
+                Click="Button_Click_8"
+              Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </StackPanel>
+
+            <StackPanel Margin="550,10,10,10">
+
+                <Label Content="Конфиденциальности" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Padding="10" Foreground="{DynamicResource PrimaryTextColor}" />
+
+
+                <Button
+                Content="Radio stations" 
+                x:Name="DeleteFolderButton21"
+                Click="Button_Click_21"
+                  
+               Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Messaging" 
+                x:Name="DeleteFolderButton20"
+                Click="Button_Click_20"
+                  Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Tasks" 
+                x:Name="DeleteFolderButton19"
+                Click="Button_Click_19"
+                Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Email" 
+                x:Name="DeleteFolderButton18"
+                Click="Button_Click_18"
+                 Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Call history" 
+                x:Name="DeleteFolderButton17"
+                Click="Button_Click_17"
+                Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Contacts" 
+                x:Name="DeleteFolderButton16"
+                Click="Button_Click_16"
+                 Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Контакты" 
+                x:Name="DeleteFolderButton15"
+                Click="Button_Click_15"
+                 Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Account Information" 
+                x:Name="DeleteFolderButton14"
+                Click="Button_Click_14"
+               Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Movement" 
+                x:Name="DeleteFolderButton13"
+                Click="Button_Click_13"
+                Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Notification" 
+                x:Name="DeleteFolderButton12"
+                Click="Button_Click_12"
+                Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+                <Button
+                Content="Location" 
+                x:Name="DeleteFolderButton11"
+                Click="Button_Click_11"
+                 Style="{StaticResource AnimatedButtonStyle}" Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Pages/Photo/Group 1 (3).png" Stretch="Fill"/>
+                    </Button.Background>
+                    <Button.ToolTip>
+                        <ToolTip>
+                            <StackPanel>
+                                <TextBlock FontWeight="Bold"><Run Text="Системная пх файлов."/></TextBlock>
+                                <TextBlock><Run Text="Папка в."/></TextBlock>
+                            </StackPanel>
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
+
+
+            </StackPanel>
+
+
+
+
+
+
+
+
+
+
+        </Grid>
+
+    </Border>
+
+</Page>

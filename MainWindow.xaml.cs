@@ -28,6 +28,8 @@ namespace WPFUIKitProfessional
             InitializeComponent();
         }
 
+        
+
         private void Themes_Click(object sender, RoutedEventArgs e)
         {
             if (Themes.IsChecked == true)
@@ -98,6 +100,16 @@ namespace WPFUIKitProfessional
         private void rdNotifications_Checked(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void rdCollections_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void home_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
         }
     }
 }

@@ -8,7 +8,7 @@
         Title="MainWindow" Height="720" Width="1100"
         WindowStartupLocation="CenterScreen" WindowStyle="None"
         Background="Transparent" AllowsTransparency="True"
-        ResizeMode="NoResize" WindowState="Normal" FontFamily="Poppins">
+        ResizeMode="NoResize" WindowState="Normal" FontFamily="Poppins" MouseLeftButtonDown="home_MouseLeftButtonDown">
 
     
     <Border CornerRadius="10" Background="{DynamicResource PrimaryBackgroundColor}">
@@ -39,7 +39,7 @@
                     <StackPanel Grid.Row="1">
                         <RadioButton x:Name="rdHome" Content="Downloader" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource home}" Margin="0 30 0 0" Click="rdHome_Click"/>
                         <RadioButton x:Name="rdMessages" Content="Delete trash" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource messages}" Click="rdMessages_Click"/>
-                        <RadioButton x:Name="rdCollections" Content="Optimizer" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource collections}" Margin="0 1 0 1" Click="rdCollections_Click"/>
+                        <RadioButton x:Name="rdCollections" Content="Optimizer" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource collections}" Margin="0 1 0 1" Click="rdCollections_Click" Checked="rdCollections_Checked"/>
                         <RadioButton x:Name="rdUsers" Content="Users" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource users}" Click="rdUsers_Click"/>
                         <RadioButton x:Name="rdAnalytics" Content="Donate" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource analytics}" Margin="0 1 0 1" Click="rdAnalytics_Click"/>
 

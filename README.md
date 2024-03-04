@@ -1,7 +1,7 @@
 ## AfteReset info
 AfteReset is a powerful tool developed by the programmer Aibek  (Bibon), designed for optimizing the Windows operating system. This unique software product not only significantly improves the overall performance of your computer by cleaning unnecessary files and 'junk', but also enhances user privacy by disabling Microsoft telemetry in Windows 10. AfteReset offers users an easy-to-use interface, allowing effortless management of settings and system optimization without the need for deep IT knowledge. Whether it's system optimization, disk space cleaning, or protecting personal information, AfteReset is a reliable solution for users looking to make the most efficient use of their Windows PCs.
 
-# Support Our Work - Make a Donation Today!
+### Support Our Work - Make a Donation Today!
 
 Your contributions make all the difference! With your support, we continue to push the boundaries of what we can achieve. Every donation, no matter the size, contributes to the ongoing development and improvement of our services. Your generosity allows us to maintain our independence and continue offering the high-quality, innovative solutions you've come to expect from us.
 

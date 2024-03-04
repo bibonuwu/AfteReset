@@ -1,6 +1,10 @@
 ﻿using System.Windows;
 using System;
 using System.Windows.Controls;
+using Microsoft.Web.WebView2.Core;
+using Microsoft.Web.WebView2.Core;
+using System.Windows;
+using System.Windows.Controls;
 
 namespace WPFUIKitProfessional.Pages
 {
@@ -12,26 +16,31 @@ namespace WPFUIKitProfessional.Pages
         public Analytics()
         {
             InitializeComponent();
+            InitializeAsync();
         }
-
-        private void Button_Click_22(object sender, System.Windows.RoutedEventArgs e)
+        private async void InitializeAsync()
         {
-            try
+            if (webView.CoreWebView2 == null)
             {
-                // Замените этот URL на нужный вам адрес
-                string url = "https://www.donationalerts.com/r/aibekbibon";
-
-                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
-                {
-                    FileName = url,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                // Обработка ошибки, например, показ сообщения пользователю
-                MessageBox.Show($"Не удалось открыть ссылку: {ex.Message}");
+                await webView.EnsureCoreWebView2Async(null);
+                webView.CoreWebView2.NewWindowRequested += CoreWebView2_NewWindowRequested;
             }
         }
+
+
+
+
+        private void CoreWebView2_NewWindowRequested(object sender, CoreWebView2NewWindowRequestedEventArgs e)
+        {
+            e.Handled = true; // Отменяем стандартное создание нового окна
+            webView.CoreWebView2.Navigate(e.Uri); // Загружаем запрашиваемый URL в текущем WebView2
+        }
+
+        // Обработчик NavigationStarting, если он вам нужен, оставляйте без изменений
+        private void webView_NavigationStarting(object sender, CoreWebView2NavigationStartingEventArgs e)
+        {
+            // Ваша логика здесь, если необходимо
+        }
+
     }
 }

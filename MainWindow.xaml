@@ -8,16 +8,16 @@
         Title="MainWindow" Height="720" Width="1100"
         WindowStartupLocation="CenterScreen" WindowStyle="None"
         Background="Transparent" AllowsTransparency="True"
-        ResizeMode="NoResize" WindowState="Normal" FontFamily="Poppins" MouseLeftButtonDown="home_MouseLeftButtonDown">
+        ResizeMode="NoResize" WindowState="Normal" FontFamily="Poppins" MouseLeftButtonDown="home_MouseLeftButtonDown" Loaded="home_Loaded">
 
-    
+
     <Border CornerRadius="10" Background="{DynamicResource PrimaryBackgroundColor}">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="250"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            
+
             <!-- Start: GridColumn Left -->
             <Border CornerRadius="10 0 0 10"
                     Padding="10"
@@ -29,7 +29,7 @@
                         <RowDefinition Height="130"/>
                         <RowDefinition Height="80"/>
                     </Grid.RowDefinitions>
-                    
+
                     <!-- Logo -->
                     <StackPanel Grid.Row="0" Orientation="Horizontal">
                         <Image Source="/Assets/Icons/Logo.png" Stretch="Fill" Height="36" Width="36" VerticalAlignment="Center" Margin="10 0 0 0"/>
@@ -40,7 +40,7 @@
                         <RadioButton x:Name="rdHome" Content="Downloader" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource home}" Margin="0 30 0 0" Click="rdHome_Click"/>
                         <RadioButton x:Name="rdMessages" Content="Delete trash" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource messages}" Click="rdMessages_Click"/>
                         <RadioButton x:Name="rdCollections" Content="Optimizer" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource collections}" Margin="0 1 0 1" Click="rdCollections_Click" Checked="rdCollections_Checked"/>
-                        <RadioButton x:Name="rdUsers" Content="Users" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource users}" Click="rdUsers_Click"/>
+                        <RadioButton x:Name="rdUsers" Content="Info System" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource users}" Click="rdUsers_Click"/>
                         <RadioButton x:Name="rdAnalytics" Content="Donate" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource analytics}" Margin="0 1 0 1" Click="rdAnalytics_Click"/>
 
 
@@ -49,7 +49,7 @@
 
                         <RadioButton x:Name="rdNotifications" Content="Notifications" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource notifications}" Margin="0 1 0 1" Checked="rdNotifications_Checked"/>
                         <RadioButton x:Name="rdSettings" Content="Settings" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource settings}"/>
-                    
+
                     </StackPanel>
 
                     <Border Grid.Row="2"
@@ -90,7 +90,8 @@
                                             Softness="0.8"/>
                         </Border.BitmapEffect>-->
                     </Border>
-                
+
+
                 </Grid>
             </Border>
             <!-- End: GridColumn Left -->
@@ -100,6 +101,11 @@
                     <RowDefinition Height="60"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
+                <Label Content="AfteReset" Foreground="{DynamicResource SecundaryBlueColor}" FontWeight="Bold" FontSize="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1" Margin="0,100,0,0"/>
+                <Label Content="Welcome to" Foreground="{DynamicResource SecundaryBlueColor}" FontWeight="Medium" FontSize="36" VerticalAlignment="Top" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="90,10,0,0" Grid.RowSpan="2"/>
+                <Label Content="Name" x:Name="MemoryInfoLabel" Foreground="{DynamicResource SecundaryBlueColor}" FontWeight="Bold" FontSize="36" VerticalAlignment="Top" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="302,10,0,0" Grid.RowSpan="2"/>
+
+                <Image Source="/Assets/Icons/Logo.png" Margin="325,147,325,313" Grid.Row="1" Height="200"/>
                 <!-- Start: Button Close | Restore | Minimize -->
                 <StackPanel Grid.Row="0" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,10,0" Height="30" Orientation="Horizontal" FlowDirection="RightToLeft">
                     <Button x:Name="btnClose" Style="{StaticResource IconButtonsStyle}" Content="{DynamicResource close}" Click="btnClose_Click" Tag="IsCloseButton"/>
@@ -118,13 +124,14 @@
                     <Button x:Name="btnMinimize" Style="{DynamicResource IconButtonsStyle}" Content="{DynamicResource minimize}" Click="btnMinimize_Click"/>
                 </StackPanel>
                 <!-- End: Button Close | Restore | Minimize -->
-                
+
                 <!-- Start: Frame Container -->
                 <Border Grid.Row="1" CornerRadius="0 0 5 0" Background="Transparent">
+
                     <Frame x:Name="frameContent" NavigationUIVisibility="Hidden" Margin="10"/>
                 </Border>
                 <!-- End: Frame Container -->
-                
+
             </Grid>
         </Grid>
     </Border>

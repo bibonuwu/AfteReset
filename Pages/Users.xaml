@@ -6,10 +6,8 @@
       xmlns:local="clr-namespace:WPFUIKitProfessional.Pages"
       xmlns:oxy="http://oxyplot.org/wpf"
     x:Class="WPFUIKitProfessional.Pages.Users"
-      mc:Ignorable="d" 
-    
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="Users" FontFamily="Poppins">
+      mc:Ignorable="d" d:DesignHeight="600" d:DesignWidth="800"
+      Title="Users" FontFamily="Poppins" Loaded="Page_Loaded">
 
     <Page.Resources>
         <Style x:Key="AnimatedButtonStyle" TargetType="{x:Type Button}">
@@ -69,8 +67,8 @@ Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" Margin="595,0
                 </Button.ToolTip>
 
             </Button>
-            
-           
+
+
 
             <Button x:Name="showProfilesButton" Content="Wi-Fi profiles" Click="ShowWifiProfiles_Click" 
                                        Style="{StaticResource AnimatedButtonStyle}"
@@ -93,7 +91,42 @@ Foreground="White" BorderBrush="#00000000" FontFamily="Nirmala UI" Margin="595,0
 
             <Label Content="Wifi profile" FontWeight="Bold" FontSize="20" Padding="10" Margin="595,5,15,401" Foreground="{DynamicResource PrimaryTextColor}" />
 
+            <Label Content="Time" FontWeight="SemiBold" FontSize="20" Padding="10" Margin="29,26,0,0" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Left" Width="174" Height="44" VerticalAlignment="Top" />
+            <Label Content="пн"  Name="DateTimeLabel" FontWeight="Bold" FontSize="20" Padding="10" Margin="208,26,0,0" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Left" Width="384" Height="44" VerticalAlignment="Top" />
 
+            <Label Content="Имя пк"  Name="ComputerNameLabel" FontWeight="Bold" FontSize="20" Padding="10" Margin="208,88,0,0" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Left" Width="384" Height="44" VerticalAlignment="Top" />
+            <Label Content="Производитель пк"  Name="ComputerManufacturerLabel" FontWeight="Bold" FontSize="20" Padding="10" Margin="208,150,0,0" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Left" Width="384" Height="44" VerticalAlignment="Top" />
+            <Label Content="LocalIPAddressLabel пк"  x:Name="LocalIPAddressLabel" FontWeight="Bold" FontSize="20" Padding="10" Margin="208,212,0,0" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Left" Width="384" Height="44" VerticalAlignment="Top" />
+            <Label Content="ExternalIPAddressLabel пк"  x:Name="ExternalIPAddressLabel" FontWeight="Bold" FontSize="20" Padding="10" Margin="208,274,0,0" Foreground="{DynamicResource PrimaryTextColor}" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="384" />
+            <Label Content="Ram"  x:Name="MemoryInfoLabel" FontWeight="Bold" FontSize="20" Padding="10" Margin="208,432,0,0" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Left" Width="384" Height="44" VerticalAlignment="Top" />
+            <Label Content="Name pc" FontWeight="SemiBold" FontSize="20" Padding="10" Margin="29,88,0,0" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Left" Width="174" Height="44" VerticalAlignment="Top" />
+            <Label Content="Company pc" FontWeight="SemiBold" FontSize="20" Padding="10" Margin="29,150,0,0" Foreground="{DynamicResource PrimaryTextColor}" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="174" />
+            <Label Content="Local IP" FontWeight="SemiBold" FontSize="20" Padding="10" Margin="29,212,0,0" Foreground="{DynamicResource PrimaryTextColor}" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="174" />
+            <Label Content="Internet IP" FontWeight="SemiBold" FontSize="20" Padding="10" Margin="29,274,0,0" Foreground="{DynamicResource PrimaryTextColor}" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="174" />
+            <Label Content="Videocard " FontWeight="SemiBold" FontSize="20" Padding="10" Margin="29,336,0,0" Foreground="{DynamicResource PrimaryTextColor}" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="174" />
+            <Label Content="Videocard"  Name="Videocard" FontWeight="Bold" FontSize="20" Padding="10" Margin="208,336,0,0" Foreground="{DynamicResource PrimaryTextColor}" HorizontalAlignment="Left" Width="366" Height="78" VerticalAlignment="Top" />
+            <Label Content="RAM " FontWeight="SemiBold" FontSize="20" Padding="10" Margin="29,432,0,0" Foreground="{DynamicResource PrimaryTextColor}" Height="44" VerticalAlignment="Top" HorizontalAlignment="Left" Width="174" />
+
+
+
+
+
+            <Separator Margin="29,75,0,0" Background="Black" HorizontalAlignment="Left" Width="545" Height="8" VerticalAlignment="Top"/>
+            <Separator Margin="29,137,0,0" Background="Black" HorizontalAlignment="Left" Width="545" Height="8" VerticalAlignment="Top"/>
+            <Separator Margin="29,199,0,0" Background="Black" Height="8" VerticalAlignment="Top" HorizontalAlignment="Left" Width="545"/>
+            <Separator Margin="29,261,0,0" Background="Black" Height="8" VerticalAlignment="Top" HorizontalAlignment="Left" Width="545"/>
+            <Separator Margin="29,323,0,0" Background="Black" Height="8" VerticalAlignment="Top" HorizontalAlignment="Left" Width="545"/>
+            <Separator Margin="29,419,0,0" Background="Black" Height="8" VerticalAlignment="Top" HorizontalAlignment="Left" Width="545"/>
+            <Separator Margin="-39,249,0,0" Background="Black" Height="8" VerticalAlignment="Top" HorizontalAlignment="Left" Width="451" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90.282"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
 
 
         </Grid>

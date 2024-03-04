@@ -30,6 +30,30 @@ namespace WPFUIKitProfessional
 
         
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         private void Themes_Click(object sender, RoutedEventArgs e)
         {
             if (Themes.IsChecked == true)
@@ -111,5 +135,42 @@ namespace WPFUIKitProfessional
         {
             this.DragMove();
         }
+
+        private void home_Loaded(object sender, RoutedEventArgs e)
+        {
+            //Name Start
+            DisplayIPAddressUsingPowerShell1();
+            //Name END
+        }
+
+        //Name start
+        private void DisplayIPAddressUsingPowerShell1()
+        {
+            string psCommand = "$Env:UserName";
+            string localIP = RunPowerShellCommand1(psCommand);
+            MemoryInfoLabel.Content = localIP;
+        }
+        private string RunPowerShellCommand1(string command)
+        {
+            ProcessStartInfo startInfo = new ProcessStartInfo()
+            {
+                FileName = "powershell.exe",
+                Arguments = $"-Command \"{command}\"",
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                CreateNoWindow = true
+            };
+
+            using (Process process = Process.Start(startInfo))
+            {
+                using (System.IO.StreamReader reader = process.StandardOutput)
+                {
+                    string result = reader.ReadToEnd();
+                    process.WaitForExit();
+                    return result.Trim();
+                }
+            }
+        }
+        //Name End
     }
 }

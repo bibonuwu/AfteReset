@@ -47,8 +47,8 @@
 
                         <Separator Margin="20 20" Background="{DynamicResource TertiaryBackgroundColor}"/>
 
-                        <RadioButton x:Name="rdNotifications" Content="Notifications" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource notifications}" Margin="0 1 0 1" Checked="rdNotifications_Checked"/>
-                        <RadioButton x:Name="rdSettings" Content="Settings" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource settings}"/>
+                        <RadioButton x:Name="rdNotifications" Content="Activator Win/office" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource notifications}" Margin="0 1 0 1" Checked="rdNotifications_Checked" Click="rdNotifications_Click" />
+                        <RadioButton x:Name="rdSettings" Content="Activator Adobe" Style="{DynamicResource MenuRadioButtonStyle}" Tag="{DynamicResource settings}" Checked="rdSettings_Checked" Click="rdSettings_Click"/>
 
                     </StackPanel>
 
@@ -69,7 +69,6 @@
                             <Button Content="Upgrade" Style="{DynamicResource ProButtonStyle}" Margin="0 50 0 0" Click="Button_Click"/>
                         </Grid>
                     </Border>
-
                     <Path Grid.Row="3" Data="{DynamicResource information}" Fill="{DynamicResource TertiaryTextColor}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20 0 0 0"/>
                     <Border Grid.Row="3" CornerRadius="18" Width="110" Height="35" Background="{DynamicResource TertiaryBackgroundColor}" HorizontalAlignment="Right" Margin="0 0 20 0">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">

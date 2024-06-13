@@ -17,3 +17,5 @@ Making a donation is simple and secure. Click on the 'Donate' button to help us 
 <h3 align="center">Computer science student, IT news writer from Kazakhstan kz</h3>
 
 
+#aftereset
+@aftereset
